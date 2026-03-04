@@ -57,7 +57,7 @@ begin
         s_hex <= x"6"; wait for 10 ns; assert (s_seg_n = "0000010") report "FAIL: 6" severity error;
         s_hex <= x"7"; wait for 10 ns; assert (s_seg_n = "1111000") report "FAIL: 7" severity error;
         s_hex <= x"8"; wait for 10 ns; assert (s_seg_n = "0000000") report "FAIL: 8" severity error;
-        s_hex <= x"9"; wait for 10 ns; assert (s_seg_n = "0010000") report "FAIL: 9" severity error;
+        s_hex <= x"9"; wait for 10 ns; assert (s_seg_n = "0011000") report "FAIL: 9" severity error;
         s_hex <= x"A"; wait for 10 ns; assert (s_seg_n = "0001000") report "FAIL: A" severity error;
         s_hex <= x"B"; wait for 10 ns; assert (s_seg_n = "0000011") report "FAIL: b" severity error;
         s_hex <= x"C"; wait for 10 ns; assert (s_seg_n = "1000110") report "FAIL: C" severity error;
